@@ -8,4 +8,8 @@ Entonces se diseña un sistema denotado *D(1)* que se inspira en un mapeo circul
 En la figura, el aparejamiento de cadenas con valores se hizo  usando el criterio de **complemento a la base**. Veamos de que se trata esto: La base es en este caso 10, y así, el ```9``` queda asociado al ```-1``` pues: ```10 +(-1) =9```
 
 Esta distribución de las cadenas sobre los valores representados tiene la particularidad que **preserva las propiedades de las operaciones aritméticas**, pues para sumar dos cadenas del sistema D(1) es posible utilizar el mismo mecanismo que ya se conocía para el sistema decimal, aunque las cadenas estén representando otros números... y esa es una gran ventaja!. 
-Responder:
+
+Por ejemplo en el sistema decimal restringido a un bit, 8+2 = 0 (c=1). Si se tiene en cuenta el valor representado por cada una: ```I(8)+ I(2) = -2+2=0```.
+
+Otro ejemplo: ```7+4=1 (c=1)``` y viendo sus interpretaciones:  I(7)+I(4) = -3+4=1 !
+
